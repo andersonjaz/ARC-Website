@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(202, 142, 0);
+}
+
+header {
+    padding: 20px 35px;
+    background-color:rgb(202, 142, 0 );
+    display: flex;
+	  align-items: center;
+	  justify-content: space-around;
+	  flex-wrap: wrap;
+  }
+
+  header h1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    display: inline;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #000, 
+               5px 5px 8px rgb(0, 0, 0);
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+  }
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+header nav {
+    float: right;
+    margin: 7px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 15px;
+    display: inline-block;
+  }
+  .container {
+    background-image: url("../images/Background-image.jpg");
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 4%;
+  }
+
+  .container img {
+    height: 600px;
+  }
+
+  .about-us{
+      border: solid rgb(0, 0, 0) 8px;
+      text-align: center;
+      margin: 1%;
+      overflow: auto;
+      color:rgb(0, 0, 0);
+  }
+
+  .about-us h2{
+      text-decoration: underline rgb(0, 0, 0);
+      text-align: center;
+      font-weight:bold;
+      font-size: 40px;
+      color: rgb(0, 0, 0);
+      margin: 2%;
+  }
+
+  .about-us h4{
+      font-style: italic;
+      color: rgb(0, 0, 0);
+  }
+
+  .about-us img{
+      height: 300px;
+      float: left;
+      margin: 5%;
+  }
+
+  .about-us p{
+      position: relative;
+      margin: 5%;
+      text-align: left;
+      font-size: 18px;
+  }
+
+  .what-we-do {
+    border: solid rgb(0, 0, 0) 8px;
+    margin: 1%;
+    overflow: auto;
+    color: rgb(202, 142, 0);
+    padding: 2%;
+  }
+  
+  .what-we-do h2{
+    text-decoration: underline rgb(0, 0, 0);
+    text-align:center;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 2%;
+  }
+
+  .what-we-do h4{
+    text-align: center;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    margin-bottom: 2%
+  }
+
+  .portfolioimages {
+    flex-wrap: wrap;
+  }
+
+  .what-we-do ul li{
+    float: left;
+    margin: 5%
+  }
+
+  .beerproject img{
+    height: 300px;
+    width: 460px;
+    /* border: 2px dotted; */
+    flex-wrap: wrap;
+    border: white 2px solid;
+}
+  
+	
+  .beerproject :hover {
+    opacity: 0.8;
+    /* width: 500px; height: 300px; */
+  }
+
+  .Horiseon img{
+    height: 300px;
+    width: 460px;
+    flex-wrap: wrap;
+    border: white 2px solid;
+}
+
+  
+  .Horiseon :hover {
+    opacity: 0.8;
+    /* width: 500px; height: 300px; */
+  }
+
+  .Horiseon p{
+    color: rgb(0, 0, 0);
+}
+
+  .RunBuddy img{
+      height: 300px;
+      width: 460px;
+      flex-wrap: wrap;
+      border: white 2px solid;
+}
+
+
+  .RunBuddy :hover {
+    opacity: 0.8;
+    /* width: 500px; height: 300px; */
+  }
+
+  .RunBuddy p{
+      color: rgb(0, 0, 0);
+  }
+
+  .contact-us{
+    border: solid rgb(0, 0, 0) 8px;
+    outline: rgb(0, 0, 0);
+    margin: 1%;
+    overflow: auto;
+    color:rgb(0, 0, 0);
+    flex-wrap: wrap;
+    padding: 2%;
+  }
+
+  .contact-us h2{
+    text-decoration: underline rgb(16, 15, 15);
+    text-align:center;
+    font-weight: bold;
+    font-size: 40px;
+    color:rgb(0, 0, 0);
+    margin-bottom: 2%;
+  }
+
+  .contact-us h4{
+    text-align: center;
+    font-style: italic;
+    color:rgb(0,0,0);
+    margin-bottom: 2%
+  }
+
+  .contact-us img{
+    height: 100px;
+    width: 200px;
+    margin: 2%;
+    float: right;
+  }
+
+  .contact-us address{
+    font-style: normal;
+    text-align: center;
+    font-size: 18px;
+    flex:content;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .contact-us iframe {
+    margin-top: 1%;
+    width: 800px;
+    height: 400px;
+    padding-top: 10px;
+  }
+
+  .contact-us a{
+    color: black;
+  }
+
+  .contact-us a:hover{
+    color: white;
+    /* text-decoration: none; */
+  }
